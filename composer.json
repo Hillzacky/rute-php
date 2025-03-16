@@ -1,0 +1,13 @@
+{
+  "name": "rute-php",
+  "description": "A simple PHP routing library with middleware, rate limiting, authentication, and static file handling.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Hillzacky\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4 || ^8.0"
+  }
+}
