@@ -46,9 +46,19 @@ Route::get('/admin', function() {
 
 ### Fungsi Utama
 Route::get(): Menangani permintaan HTTP GET.
+
 Route::post(): Menangani permintaan HTTP POST.
+
 Route::put(): Menangani permintaan HTTP PUT.
+
 Route::delete(): Menangani permintaan HTTP DELETE.
+
 Route::patch(): Menangani permintaan HTTP PATCH.
+
 Route::head(): Menangani permintaan HTTP HEAD.
+
 Route::options(): Menangani permintaan HTTP OPTIONS.
+
+
+### Lisensi
+Distribusi ini dilisensikan di bawah lisensi MIT. Lihat file LICENSE untuk informasi lebih lanjut.
