@@ -2,6 +2,34 @@
 A simple PHP routing library with middleware, rate limiting, authentication, and static file handling.
 Library ini adalah implementasi sederhana dari sebuah router dan sistem tampilan (view) untuk aplikasi PHP. Didesain untuk memudahkan pengelolaan rute HTTP dan rendering tampilan menggunakan layout dan fragment. Dengan pendekatan berbasis statis, library ini menyediakan cara yang fleksibel dan sederhana untuk menangani rute dan tampilan.
 
+## 🚀 Fitur Utama
+
+- **Routing Sederhana**: Mendukung metode GET, POST, PUT, DELETE dengan dukungan middleware.
+- **View Engine**: Sistem templating dengan dukungan layout dan fragment (header/footer).
+- **Middleware Built-in**: Log request, Rate Limiting, dan Autentikasi dasar.
+- **Static File Handler**: Memudahkan penyajian aset seperti CSS, JS, dan Gambar.
+- **PSR-4 Compliant**: Mudah diintegrasi dengan Composer.
+
+## 📦 Instalasi
+
+Instal library ini melalui Composer:
+
+```bash
+composer require hillzacky/rute-php
+```
+## Struktur Folder Rekomendasi
+```
+your-project/
+├── public/
+│   └── index.php
+├── views/
+│   ├── layouts/
+│   ├── fragments/
+│   └── home.php
+├── vendor/
+└── composer.json
+└── index.php
+```
 ## Penggunaan
 
 ### Menyiapkan Route
